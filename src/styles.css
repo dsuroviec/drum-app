@@ -1,0 +1,52 @@
+html {
+  font-family: sans;
+  background-color: #560122;
+}
+
+.App {
+  position: relative;
+  border: 1px solid black;
+  width: 45%;
+  margin: auto;
+  margin-top: 200px;
+  height: 455px;
+  padding: 10px;
+  background-color: #c2c0c1;
+}
+
+#display {
+  position: absolute;
+  width: 50px;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr;
+}
+
+.drum-pad {
+  color: #eccf67;
+  font-weight: bold;
+  background-color: #74012c;
+  font-size: 18px;
+  text-align: center;
+  padding: 4rem;
+  border: 1px solid black;
+}
+
+.soundInfo {
+  background-color: goldenrod;
+  color: #74012c;
+  position: absolute;
+  margin-left: 480px;
+  font-weight: bold;
+
+  height: 30px;
+  width: 100px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 15px;
+  text-align: center;
+}
